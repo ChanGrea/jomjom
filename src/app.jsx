@@ -6,9 +6,8 @@ import Footer from './components/Footer.jsx';
 import Contents from './components/Contents.jsx';
 
 const Container = styled.div`
-  width: 80%;
-  margin-left: auto;
-  margin-right: auto;
+  width: 100%;
+  overflow-x: hidden;
 `;
 
 const App = () => {
