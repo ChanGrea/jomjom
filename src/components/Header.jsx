@@ -1,8 +1,8 @@
 import React from 'react';
 import Button from './atoms/Button.jsx';
-import DropBox from './atoms/DropBox.jsx';
 import styled from 'styled-components';
 import Logo from './atoms/Logo.jsx';
+import LangSelection from './molecules/LangSelection.jsx';
 
 const HeaderWrapper = styled.div`
   background-color: transparent;
@@ -61,7 +61,7 @@ const Header = () => {
     <HeaderWrapper>
       <Wrapper>
         <Logo />
-        <DropBox data={languageOption} />
+        <LangSelection data={languageOption} />
         <Button color="white" background="red" onClick={handleLoginButton}>
           로그인
         </Button>
